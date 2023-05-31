@@ -1,0 +1,18 @@
+{
+  "name": "hcb.js",
+  "version": "0.1.0",
+  "description": "A npm package for the HCB transparency API",
+  "main": "dist/index.js",
+  "repository": "https://git.sean.cyou/root/hcb.js.git",
+  "author": "Sean Outram <outramsean0@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@sapphire/prettier-config": "^1.4.5",
+    "@sapphire/ts-config": "^4.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
