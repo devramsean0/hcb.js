@@ -1,3 +1,3 @@
-export interface HCB_Error {
+export interface I_HCB_Error {
     message: string;
 }

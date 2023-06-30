@@ -1,7 +1,7 @@
-import type { HCB_Organization } from "./organization";
-import type { HCB_User } from "./user";
+import type { I_HCB_Organization } from "./organization";
+import type { I_HCB_User } from "./user";
 
-export interface HCB_Card {
+export interface I_HCB_Card {
     id: string;
     object: string;
     href: string;
@@ -9,6 +9,6 @@ export interface HCB_Card {
     type: "virtual" | "physical";
     status: "active" | "frozen" | "canceled";
     issued_at: string;
-    owner: HCB_User;
-    organization: HCB_Organization;
+    owner: I_HCB_User;
+    organization: I_HCB_Organization;
 }

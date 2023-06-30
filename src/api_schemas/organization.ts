@@ -1,6 +1,6 @@
-import type { HCB_User } from "./user";
+import type { I_HCB_User } from "./user";
 
-export interface HCB_Organization {
+export interface I_HCB_Organization {
     id: string;
     object: string;
     href: string;
@@ -17,5 +17,5 @@ export interface HCB_Organization {
         incoming_balance_cents: number;
     };
     created_at: string;
-    users: HCB_User[];
+    users: I_HCB_User[];
 }
