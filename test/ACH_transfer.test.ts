@@ -1,5 +1,5 @@
 import { beforeEach, expect, describe, it } from 'vitest';
-import { HCB_ACHTransfer } from '../src/api_endpoints/ach_transfer';
+import { HCB_ACHTransfer } from '../src/api_endpoints/ACH_transfer';
 
 describe('HCB_ACHTransfer', () => {
     let ach_transfer: HCB_ACHTransfer;
