@@ -23,6 +23,6 @@ describe('HCB_CardCharge', () => {
             expect(result).toBeDefined();
             expect(result.id).toEqual('chg_YLHW64');
             expect(result.object).toEqual('card_charge');
-          });
+        });
     })
 })

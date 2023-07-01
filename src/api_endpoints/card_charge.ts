@@ -2,13 +2,13 @@ import type { I_HCB_CardCharge } from "../api_schemas";
 import { fetchWrapper } from "../lib/fetch";
 import { queryFormer } from "../lib/queryFormer";
 /**
-    * @class HCB_Transaction
+    * @class HCB_CardCharge
     * @description This class contains all the card charge related endpoints
 */
 export class HCB_CardCharge {
     public async allOrgCardCharges(data: { id: string, expand?: string, offset?: number, page?: number, per_page?: number }): Promise<I_HCB_CardCharge[]> {
         /**
-         * Get all card charges for a single organization in a page of 100
+         * Get all card charges for a single organization
          * @returns {Promise<I_HCB_CardCharge[]>} CardCharge objects
          * @param data {object} Object containing the ID or slug of the organization to fetch and all other optional parameters
          * @async

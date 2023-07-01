@@ -1,7 +1,6 @@
 import { beforeEach, expect, describe, it } from 'vitest';
 import { HCB_Organization } from '../src/api_endpoints/organization';
 
-
 describe('HCB_Organization', () => {
   let organization: HCB_Organization;
   beforeEach(() => {
