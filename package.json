@@ -1,43 +1,49 @@
 {
-  "name": "hcb.js",
-  "version": "0.1.0",
-  "description": "A npm package for the HCB transparency API",
-  "main": "dist/index.js",
-  "repository": "https://git.sean.cyou/root/hcb.js.git",
-  "author": "Sean Outram <outramsean0@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
-    "@commitlint/config-conventional": "^17.6.6",
-    "@favware/cliff-jumper": "^2.1.1",
-    "@sapphire/prettier-config": "^1.4.5",
-    "@sapphire/ts-config": "^4.0.0",
-    "@types/node": "^20.3.1",
-    "gen-esm-wrapper": "^1.1.3",
-    "husky": "^8.0.3",
-    "prettier": "^2.8.8",
-    "tsup": "^7.1.0",
-    "typedoc": "^0.24.8",
-    "typedoc-json-parser": "^8.2.0",
-    "typescript": "^5.0.4",
-    "vitest": "^0.32.2"
-  },
-  "scripts": {
-    "build": "tsup && gen-esm-wrapper dist/index.js dist/index.mjs",
-    "build:docs": "typedoc-json-parser",
-    "test": "vitest run",
-    "postinstall": "husky install",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
-  },
-  "dependencies": {
-    "@sapphire/fetch": "^2.4.1"
-  },
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.js",
-    "types": "./dist/index.d.ts"
-  }
+	"name": "hcb.js",
+	"version": "0.1.0",
+	"description": "A npm package for the HCB transparency API",
+	"main": "dist/index.js",
+	"repository": "https://git.sean.cyou/root/hcb.js.git",
+	"author": "Sean Outram <outramsean0@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@commitlint/cli": "^17.6.6",
+		"@commitlint/config-conventional": "^17.6.6",
+		"@favware/cliff-jumper": "^2.1.1",
+		"@sapphire/prettier-config": "^1.4.5",
+		"@sapphire/ts-config": "^4.0.0",
+		"@types/node": "^20.3.1",
+		"gen-esm-wrapper": "^1.1.3",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.3",
+		"prettier": "^2.8.8",
+		"tsup": "^7.1.0",
+		"typedoc": "^0.24.8",
+		"typedoc-json-parser": "^8.2.0",
+		"typescript": "^5.0.4",
+		"vitest": "^0.32.2"
+	},
+	"scripts": {
+		"build": "tsup && gen-esm-wrapper dist/index.js dist/index.mjs",
+		"build:docs": "typedoc-json-parser",
+		"test": "vitest run",
+		"postinstall": "husky install",
+		"prepack": "pinst --disable",
+		"postpack": "pinst --enable",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"@sapphire/fetch": "^2.4.1"
+	},
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"exports": {
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.js",
+		"types": "./dist/index.d.ts"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	},
+	"prettier": "@sapphire/prettier-config"
 }

@@ -4,7 +4,7 @@
 		"incremental": false,
 		"useDefineForClassFields": false,
 		"rootDir": "src",
-		"outDir": "dist",
+		"outDir": "dist"
 	},
 	"include": ["src"]
 }
