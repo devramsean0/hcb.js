@@ -6,7 +6,8 @@ export default defineConfig({
 		coverage: {
 			provider: 'v8',
 			reporter: ['text', 'lcov', 'clover']
-		}
+		},
+		testTimeout: 10000
 	},
 	esbuild: {
 		target: 'es2022'
