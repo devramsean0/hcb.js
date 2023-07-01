@@ -1,7 +1,10 @@
 import type { I_HCB_Organization } from "../api_schemas";
 import { fetchWrapper } from "../lib/fetch";
 import { queryFormer } from "../lib/queryFormer";
-
+/**
+    * @class HCB_Organization
+    * @description This class contains all the organization related endpoints
+*/
 export class HCB_Organization {
     public async singleOrganization(data: { id: string, expand?: string }): Promise<I_HCB_Organization> {
         /**
