@@ -1,6 +1,5 @@
 import { beforeEach, expect, describe, it } from 'vitest';
 import { HCB_Organization } from '../../src/api_endpoints/organization';
-import { I_HCB_Organization } from '../../src/api_schemas';
 
 
 describe('HCB_Organization', () => {
