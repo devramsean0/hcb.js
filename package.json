@@ -7,6 +7,7 @@
   "author": "Sean Outram <outramsean0@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@favware/cliff-jumper": "^2.1.1",
     "@sapphire/prettier-config": "^1.4.5",
     "@sapphire/ts-config": "^4.0.0",
     "@types/node": "^20.3.1",
