@@ -44,7 +44,7 @@
 		"types": "./dist/index.d.ts"
 	},
 	"lint-staged": {
-		"**/*": "prettier --write --ignore-unknown"
+		"**/*": "prettier --write --ignore-unknown ."
 	},
 	"prettier": "@sapphire/prettier-config"
 }
