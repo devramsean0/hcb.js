@@ -2,6 +2,10 @@ import type { I_HCB_Organization } from './organization';
 import type { I_HCB_Transaction } from './transaction';
 
 export interface I_HCB_Invoice {
+	/**
+	 * @description Invoice interface
+	 * @interface I_HCB_Invoice
+	 */
 	id: string;
 	object: string;
 	href: string;

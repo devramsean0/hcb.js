@@ -8,6 +8,10 @@ import type { I_HCB_Tag } from './tag';
 import type { I_HCB_Transfer } from './transfer';
 
 export interface I_HCB_Transaction {
+	/**
+	 * @description Transaction interface
+	 * @interface I_HCB_Transaction
+	 */
 	id: string;
 	object: string;
 	href: string;

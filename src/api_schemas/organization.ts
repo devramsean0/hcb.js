@@ -1,6 +1,10 @@
 import type { I_HCB_User } from './user';
 
 export interface I_HCB_Organization {
+	/**
+	 * @description Organization interface
+	 * @interface I_HCB_Organization
+	 */
 	id: string;
 	object: string;
 	href: string;

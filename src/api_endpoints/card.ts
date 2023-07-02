@@ -9,7 +9,7 @@ import { queryFormer } from '../lib/queryFormer';
 export class HCB_Card {
 	public async allOrgCards(data: { id: string; expand?: string; offset?: number; page?: number; per_page?: number }): Promise<I_HCB_Card[]> {
 		/**
-		 * Get all cards for a single organization
+		 * @description Get all cards for a single organization
 		 * @returns {Promise<I_HCB_Card[]>} Card objects
 		 * @param data {object} Object containing the ID or slug of the organization to fetch and all other optional parameters
 		 * @async
@@ -21,7 +21,7 @@ export class HCB_Card {
 	}
 	public async singleCard(data: { id: string; expand?: string }): Promise<I_HCB_Card> {
 		/**
-		 * Get a single card by ID
+		 * @description Get a single card by ID
 		 * @returns {Promise<I_HCB_Card>} Card object
 		 * @param data {object} Object containing the ID of the card to fetch and an optional expand parameter to expand objects (should be a string seperated by commas)
 		 * @async

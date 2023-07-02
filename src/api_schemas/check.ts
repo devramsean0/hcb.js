@@ -1,4 +1,8 @@
 export interface I_HCB_Check {
+	/**
+	 * @description Check interface
+	 * @interface I_HCB_Check
+	 */
 	id: string;
 	object: string;
 	href: string;

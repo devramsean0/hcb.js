@@ -14,7 +14,7 @@ export class HCB_Transaction {
 		per_page?: number;
 	}): Promise<I_HCB_Transaction[]> {
 		/**
-		 * Get all transactions for a single organization in a page of 100
+		 * @description Get all transactions for a single organization in a page of 100
 		 * @returns {Promise<I_HCB_Transaction[]>} Transaction objects
 		 * @param data {object} Object containing the ID or slug of the organization to fetch and all other optional parameters
 		 * @async
@@ -26,7 +26,7 @@ export class HCB_Transaction {
 	}
 	public async singleTransaction(data: { id: string; expand?: string }): Promise<I_HCB_Transaction> {
 		/**
-		 * Get a single transaction by ID
+		 * @description Get a single transaction by ID
 		 * @returns {Promise<I_HCB_Transaction>} Transaction object
 		 * @param data {object} Object containing the ID of the transaction to fetch and an optional expand parameter to expand objects (should be a string seperated by commas)
 		 * @async
