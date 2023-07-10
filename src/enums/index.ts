@@ -1,1 +1,1 @@
-export * from './hcb_logos'
+export * from './hcb_logos';
