@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ## 🚀 Features
 
-- **docs:** Improve typedoc docs ([2099e05](https://github.com/sapphiredev/framework/commit/2099e059a66ca10309a8cd0252bad53e39b9e122))
+-   **docs:** Improve typedoc docs ([2099e05](https://github.com/sapphiredev/framework/commit/2099e059a66ca10309a8cd0252bad53e39b9e122))
 
 # Changelog
 
