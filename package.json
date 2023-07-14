@@ -3,7 +3,7 @@
 	"version": "0.3.1",
 	"description": "A npm package for the HCB transparency API",
 	"main": "dist/index.js",
-	"repository": "https://git.sean.cyou/root/hcb.js.git",
+	"repository": "https://github.com/devramsean0/hcb.js.git",
 	"author": "Sean Outram <outramsean0@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
