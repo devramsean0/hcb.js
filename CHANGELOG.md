@@ -6,11 +6,11 @@ All notable changes to this project will be documented in this file.
 
 ## 🐛 Bug Fixes
 
-- Add scripts dir to npmignore ([4bfa5a0](https://github.com/devramsean0/hcb.js/commit/4bfa5a08ab046a7286365ca90c40a9b7e73b9c16))
+-   Add scripts dir to npmignore ([4bfa5a0](https://github.com/devramsean0/hcb.js/commit/4bfa5a08ab046a7286365ca90c40a9b7e73b9c16))
 
 ## 🚀 Features
 
-- Add copyright headers to dist ([40999ec](https://github.com/devramsean0/hcb.js/commit/40999ec416b4e6a260ac128ae15f9195793dbb53))
+-   Add copyright headers to dist ([40999ec](https://github.com/devramsean0/hcb.js/commit/40999ec416b4e6a260ac128ae15f9195793dbb53))
 
 # [0.3.0](https://github.com/sapphiredev/framework/compare/v0.2.0...v0.3.0) - (2023-07-10)
 
