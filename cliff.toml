@@ -9,9 +9,9 @@ body = """
 	# [{{ version | trim_start_matches(pat="v") }}]\
 	{% if previous %}\
 		{% if previous.version %}\
-			(https://github.com/sapphiredev/framework/compare/{{ previous.version }}...{{ version }})\
+			(https://github.com/devramsean0/hcb.js/compare/{{ previous.version }}...{{ version }})\
 		{% else %}\
-			(https://github.com/sapphiredev/framework/tree/{{ version }})\
+			(https://github.com/devramsean0/hcb.js/tree/{{ version }})\
 		{% endif %}\
 	{% endif %} \
 	- ({{ timestamp | date(format="%Y-%m-%d") }})
@@ -24,7 +24,7 @@ body = """
 		- {% if commit.scope %}\
 			**{{commit.scope}}:** \
 		{% endif %}\
-			{{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](https://github.com/sapphiredev/framework/commit/{{ commit.id }}))\
+			{{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](https://github.com/devramsean0/hcb.js/commit/{{ commit.id }}))\
 		{% if commit.breaking %}\
 			{% for breakingChange in commit.footers %}\
 				\n{% raw %}  {% endraw %}- 💥 **{{ breakingChange.token }}{{ breakingChange.separator }}** {{ breakingChange.value }}\
