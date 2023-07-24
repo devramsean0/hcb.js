@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ## 🐛 Bug Fixes
 
-- Remove path from copyright header ([24abab1](https://github.com/devramsean0/hcb.js/commit/24abab11889547b062dc4af28c995f4c5622f030))
+-   Remove path from copyright header ([24abab1](https://github.com/devramsean0/hcb.js/commit/24abab11889547b062dc4af28c995f4c5622f030))
 
 # [0.4.0](https://github.com/devramsean0/hcb.js/compare/v0.3.2...v0.4.0) - (2023-07-24)
 
