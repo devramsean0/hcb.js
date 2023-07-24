@@ -25,11 +25,12 @@
 		"vitest": "^0.32.2"
 	},
 	"scripts": {
-		"build": "tsup && gen-esm-wrapper dist/index.js dist/index.mjs",
+		"build:publish": "tsup && gen-esm-wrapper dist/index.js dist/index.mjs",
+		"build": "tsup",
 		"build:docs": "typedoc-json-parser",
 		"test": "vitest run",
-		"postinstall": "husky install",
-		"prepack": "pinst --disable",
+		"_postinstall": "husky install",
+		"prepack": "pinst --disable && npm run build:publish",
 		"postpack": "pinst --enable",
 		"prepare": "husky install"
 	},
