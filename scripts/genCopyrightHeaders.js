@@ -34,10 +34,7 @@ async function scanFileTree(directory, fileFunction) {
 
 async function processFile(filePath) {
 	const readfile = await fs.readFile(filePath, 'utf8');
-	const header = `// Package Name: ${name}\n// Version: ${version}\n// Path: ${filePath.replace(
-		/\\/g,
-		'/'
-	)}\n// Generated at: ${new Date().toISOString()}\n// Copyright: ${new Date().getFullYear()} Sean Outram`;
+	const header = `// Package Name: ${name}\n// Version: ${version}\n// Generated at: ${new Date().toISOString()}\n// Copyright: ${new Date().getFullYear()} Sean Outram`;
 	const newFile = `${header}\n\n${readfile}`;
 	await fs.writeFile(filePath, newFile);
 	console.log(`Added header to: ${filePath}`);
