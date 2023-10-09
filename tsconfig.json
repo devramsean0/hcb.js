@@ -4,7 +4,9 @@
 		"incremental": false,
 		"useDefineForClassFields": false,
 		"rootDir": "src",
-		"outDir": "dist"
+		"outDir": "dist",
+		"moduleResolution": "node16",
+		"verbatimModuleSyntax": false
 	},
 	"include": ["src"]
 }
