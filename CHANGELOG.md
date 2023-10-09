@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [0.4.2](https://github.com/devramsean0/hcb.js/compare/v0.4.2...v0.4.2) - (2023-10-09)
+
+## 🏠 Refactor
+
+- Use new hcb.hackclub.com subdomain ([b841d43](https://github.com/devramsean0/hcb.js/commit/b841d43a0fb3a7725874ce078466614d089d9b18))
+
 # [0.4.1](https://github.com/devramsean0/hcb.js/compare/v0.4.0...v0.4.1) - (2023-07-24)
 
 ## 🐛 Bug Fixes
