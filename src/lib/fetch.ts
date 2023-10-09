@@ -6,6 +6,6 @@ export async function fetchWrapper<T>(url: string) {
 	 * @param url {string} URL to fetch
 	 * @async
 	 */
-	const res = await fetch<T>(`https://bank.hackclub.com/api/v3/${url}`);
+	const res = await fetch<T>(`https://hcb.hackclub.com/api/v3/${url}`);
 	return res;
 }
