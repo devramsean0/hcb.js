@@ -86,7 +86,7 @@ jobs:
         if: ${{ env.TYPE == 'branch' }}
         run: |
           mkdir -p out/hcb.js
-          mv docs/api.json out/docs/hcb.js/${NAME}-${SHA}.json
+          mv docs/api.json out/docs/hcb.js/branch-${NAME}-${SHA}.json
 
       - name: Commit & Push
         uses: nick-fields/retry@v2
