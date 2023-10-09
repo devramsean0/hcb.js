@@ -6,7 +6,8 @@
 		"rootDir": "src",
 		"outDir": "dist",
 		"moduleResolution": "node16",
-		"verbatimModuleSyntax": false
+		"verbatimModuleSyntax": false,
+		"module": "Node16"
 	},
 	"include": ["src"]
 }
