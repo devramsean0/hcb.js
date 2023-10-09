@@ -29,7 +29,7 @@
 		"build": "tsup",
 		"build:docs": "typedoc-json-parser",
 		"test": "vitest run",
-		"_postinstall": "husky install",
+		"postinstall": "husky install",
 		"prepack": "pinst --disable && npm run build:publish && yarn test",
 		"postpack": "pinst --enable",
 		"prepare": "husky install"
