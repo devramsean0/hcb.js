@@ -1,6 +1,6 @@
 {
 	"name": "hcb.js",
-	"version": "0.4.3",
+	"version": "0.4.4",
 	"description": "A npm package for the HCB transparency API",
 	"main": "dist/index.js",
 	"repository": "https://github.com/devramsean0/hcb.js.git",
