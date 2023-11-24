@@ -413,17 +413,17 @@
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
 "@favware/cliff-jumper@^2.1.1":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@favware/cliff-jumper/-/cliff-jumper-2.2.0.tgz#bea64ec04fe7463fa82eef8f76e4b2996294cfd8"
-  integrity sha512-uFfaxTxWICRp5CUX9CX8SUhalKmQBMn9soejUR9rLYaxyLTr8JLqhxjXQoDhyuUy4jPYsqpiC7S7xSjL8urIHg==
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@favware/cliff-jumper/-/cliff-jumper-2.2.3.tgz#9978352cffddd8b9dc10be7e69a888fea7be001b"
+  integrity sha512-UQ2ZLv69IVVt28+MXsy/iwUwtdqBx7LX2tOju/ECrljIxS+5jIEMTQVcWebfKK0dovMO68bCEr/3jlqBRVmoiw==
   dependencies:
     "@sapphire/result" "^2.6.4"
     "@sapphire/utilities" "3.13.0"
     colorette "^2.0.20"
-    commander "^11.0.0"
+    commander "^11.1.0"
     compare-func "^2.0.0"
     conventional-recommended-bump "^9.0.0"
-    git-cliff "~1.3.0"
+    git-cliff "^1.4.0"
     js-yaml "^4.1.0"
     semver "^7.5.4"
 
@@ -952,6 +952,11 @@ commander@11.0.0, commander@^11.0.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-11.0.0.tgz#43e19c25dbedc8256203538e8d7e9346877a6f67"
   integrity sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==
 
+commander@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-11.1.0.tgz#62fdce76006a68e5c1ab3314dc92e800eb83d906"
+  integrity sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==
+
 commander@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
@@ -1338,47 +1343,47 @@ get-stream@^6.0.0, get-stream@^6.0.1:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
-git-cliff-darwin-arm64@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/git-cliff-darwin-arm64/-/git-cliff-darwin-arm64-1.3.1.tgz#8d6c0aae4f2dc3892f7f4849030cff97b7786180"
-  integrity sha512-Ms8xACh/8GFQ2t7/2MJk9yJof/Ir5Ls9d+LuEMut0D3toNjIaGSmHq0WC5hBPq2PJ1/FK8U53sgkOIf2x8Q4aA==
+git-cliff-darwin-arm64@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/git-cliff-darwin-arm64/-/git-cliff-darwin-arm64-1.4.0.tgz#5e0ceaf9b9d626e992d9990f05e69bf9cedd75cc"
+  integrity sha512-QCCvi+gIP+2KXWBzCccIDF2GCNbpm9RND7HbDmU79uKP9Qp070ZSYxlqifph6bUxFFw7dRwlVHiKxyUADwnxSQ==
 
-git-cliff-darwin-x64@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/git-cliff-darwin-x64/-/git-cliff-darwin-x64-1.3.1.tgz#3443a76cb9a3d3420f7a3572d141feaceaf40dfb"
-  integrity sha512-lnotUCDnCQmEyadf2t9NASeTT6/3Gaz5Hf3+W/uS1fpnPJKWWY4n9TNfCKhZyJhUOq43/vrcOScznuLug+YPcw==
+git-cliff-darwin-x64@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/git-cliff-darwin-x64/-/git-cliff-darwin-x64-1.4.0.tgz#934ed0e143966d1156935accc717c53e36df419b"
+  integrity sha512-9b+y3vC4J4G3X9ndNj0s8YiKV1IBux7yU5mDMZhcUA7g9gveoPo+eZZLyPl6+KHxoOE7GCgfHFIhhC+zwh/oWQ==
 
-git-cliff-linux-arm64@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/git-cliff-linux-arm64/-/git-cliff-linux-arm64-1.3.1.tgz#6d291d86bedaab8f4178943cdb6e5d0ef4ff5117"
-  integrity sha512-ydx5CSjKlELFEH7NAJf2aciBJg0hzIoM3308E8sGSBltXPeSHOuMAxIJP4jMkJ9ONsY90AHmunldCUSPv1gwTA==
+git-cliff-linux-arm64@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/git-cliff-linux-arm64/-/git-cliff-linux-arm64-1.4.0.tgz#a0dfbf64ffdc927c8c811b3b9f2ff071d63ac11c"
+  integrity sha512-caUW7eIkAXZKjzFgQKMlFia+9zkgjPPtnzXeZwkXjtDaSACbzqss+AvaxZUEVy+xfj14+RHOFTn6WCpQJ1NbGw==
 
-git-cliff-linux-x64@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/git-cliff-linux-x64/-/git-cliff-linux-x64-1.3.1.tgz#a97bebb09b18cce3dd2b11ed7c0d98b6d5c67be2"
-  integrity sha512-CJXRH+37PDQMQWuGwXPDacZmbQQ6xQji6h7HXifxCkanOsKqsBocYI+n35woa+Pgk3QUcf2pTGpZuFhrKlwSoA==
+git-cliff-linux-x64@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/git-cliff-linux-x64/-/git-cliff-linux-x64-1.4.0.tgz#6c6e37efd72eafe78febc8cddc19ff121ff042de"
+  integrity sha512-9HNuziC2ZsM1z1xrq+pRfFiH3LSdEwK1QyW/vngJP/f4GlO5Zm3tBX4n7Y+8yLUcyYMezKsR+rPF9MRmIswpgQ==
 
-git-cliff-windows-arm64@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/git-cliff-windows-arm64/-/git-cliff-windows-arm64-1.3.1.tgz#df9d08c681e67d4b2db007f86e8bae2b2290a236"
-  integrity sha512-uKP7syv0SeJjJq58vSqI4fXOnlbfXpi1VLTrLLMJljnk+i/V2AfDJaZaRgYOxtuxMcRXq5/SD8v47vvbugFRvw==
+git-cliff-windows-arm64@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/git-cliff-windows-arm64/-/git-cliff-windows-arm64-1.4.0.tgz#ee60ed57525c9cd1b4ca5db21b9ee1009b187147"
+  integrity sha512-J0E/74+xowQfuLHHIB3KP6eFp+V39nhPVuAgNLnrLY28Yvqn8AGKCidQStisfjMS2Ot/a7yKFv1JwW/bR0lQjA==
 
-git-cliff-windows-x64@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/git-cliff-windows-x64/-/git-cliff-windows-x64-1.3.1.tgz#033871deff80265f1e0871f7b21898d6f43c82f8"
-  integrity sha512-TU4/PBvo6Qb9Lz2/5pHPamkJuymHzn7ypLQCfg5AT3V27VVnphJMAR7iScBxDLvtj4mey48uFjCaWX+7ub+Z9w==
+git-cliff-windows-x64@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/git-cliff-windows-x64/-/git-cliff-windows-x64-1.4.0.tgz#9db6333b0ddf028c300798db6c16f5e871d4efb4"
+  integrity sha512-w/mOm00QEuu4VPkmJsyaSlaJtjo6kgvb9v7n81eZSj3SnpTRQzNXTjB1JzKavgqnJ6JnAQiypRmPwC1FsCyiFA==
 
-git-cliff@~1.3.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/git-cliff/-/git-cliff-1.3.1.tgz#2283e3d3e0e71ee895085c1675efc847c0913737"
-  integrity sha512-w0d35QMWuN4HSutGZINQ1rFD4zmWmWIzB40pXHwgb/fBSlXNvjGsFAoz/vxhsKUrlRSc2VZX/pdTC81hx+JzPA==
+git-cliff@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/git-cliff/-/git-cliff-1.4.0.tgz#b15c8247089dc13ef770117e9c919b0718eaa7a1"
+  integrity sha512-BLHYp/BD5jfOoPA3B6Ht1s1rJxtPcpmgyjQFZSFP53AdjVyfI2kwk7aVmxEfd1RQsBHRBVfPyJ+PNVghsfo3Yg==
   optionalDependencies:
-    git-cliff-darwin-arm64 "1.3.1"
-    git-cliff-darwin-x64 "1.3.1"
-    git-cliff-linux-arm64 "1.3.1"
-    git-cliff-linux-x64 "1.3.1"
-    git-cliff-windows-arm64 "1.3.1"
-    git-cliff-windows-x64 "1.3.1"
+    git-cliff-darwin-arm64 "1.4.0"
+    git-cliff-darwin-x64 "1.4.0"
+    git-cliff-linux-arm64 "1.4.0"
+    git-cliff-linux-x64 "1.4.0"
+    git-cliff-windows-arm64 "1.4.0"
+    git-cliff-windows-x64 "1.4.0"
 
 git-raw-commits@^2.0.11:
   version "2.0.11"
@@ -1925,7 +1930,7 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^9.0.3:
+minimatch@^9.0.0, minimatch@^9.0.3:
   version "9.0.3"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.3.tgz#a6e00c3de44c3a542bfaae70abfc22420a6da825"
   integrity sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==
@@ -2673,7 +2678,7 @@ ts-node@^10.8.1:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tslib@^2.6.2:
+tslib@^2.5.3, tslib@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
@@ -2723,21 +2728,30 @@ type-fest@^1.0.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.4.0.tgz#e9fb813fe3bf1744ec359d55d1affefa76f14be1"
   integrity sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==
 
-typedoc-json-parser@^9.0.0:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/typedoc-json-parser/-/typedoc-json-parser-9.0.1.tgz#54a2d102a2745e841845f213c4b4afd7cab09703"
-  integrity sha512-hvoISd8CMLn4iDXVebaUq32urRjoVtXMsZ1X2bmW1kaQolvVYZRw6NKXOdB1cLKzAxVWN9eHlg6HRduCCsfP7g==
+typedoc-json-parser@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/typedoc-json-parser/-/typedoc-json-parser-8.2.0.tgz#0a05b273e3db83b290e993bcbaaabb8d0cfb46f1"
+  integrity sha512-/aEvjQAEJOb5vPFXbM4w2cOZf3h6PuNTHpiK/ZKAZf5xHu3kM6LxlgGBGgt9JyR2VGeQEJBvxHZODqiBGrB8Sw==
   dependencies:
     "@favware/colorette-spinner" "^1.0.1"
     "@sapphire/node-utilities" "^1.0.0"
     colorette "^2.0.20"
     commander "^11.0.0"
     js-yaml "^4.1.0"
-    tslib "^2.6.2"
-    typedoc "^0.25.1"
-    typescript "^5.2.2"
+    tslib "^2.5.3"
+    typedoc "^0.24.8"
 
-typedoc@^0.25.0, typedoc@^0.25.1:
+typedoc@^0.24.8:
+  version "0.24.8"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.24.8.tgz#cce9f47ba6a8d52389f5e583716a2b3b4335b63e"
+  integrity sha512-ahJ6Cpcvxwaxfu4KtjA8qZNqS43wYt6JL27wYiIgl1vd38WW/KWX11YuAeZhuz9v+ttrutSsgK+XO1CjL1kA3w==
+  dependencies:
+    lunr "^2.3.9"
+    marked "^4.3.0"
+    minimatch "^9.0.0"
+    shiki "^0.14.1"
+
+typedoc@^0.25.0:
   version "0.25.2"
   resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.25.2.tgz#39f525c28b6eb61da54dda4ec6b1500df620bed8"
   integrity sha512-286F7BeATBiWe/qC4PCOCKlSTwfnsLbC/4cZ68oGBbvAqb9vV33quEOXx7q176OXotD+JdEerdQ1OZGJ818lnA==
