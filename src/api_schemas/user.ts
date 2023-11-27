@@ -1,7 +1,6 @@
 export interface I_HCB_User {
 	/**
-	 * @description User interface
-	 * @interface I_HCB_User
+	 * User interface
 	 */
 	id: string;
 	object: string;

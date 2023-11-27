@@ -5,8 +5,7 @@ import type { I_HCB_User } from './user';
 
 export interface I_HCB_CardCharge {
 	/**
-	 * @description Card Charge interface
-	 * @interface I_HCB_CardCharge
+	 * Card Charge interface
 	 */
 	id: string;
 	object: string;

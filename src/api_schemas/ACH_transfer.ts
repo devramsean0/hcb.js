@@ -3,8 +3,7 @@ import type { I_HCB_Transaction } from './transaction';
 
 export interface I_HCB_ACHTransfer {
 	/**
-	 * @description ACH Transfer interface
-	 * @interface I_HCB_ACHTransfer
+	 * ACH Transfer interface
 	 */
 	id: string;
 	object: string;

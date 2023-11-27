@@ -4,6 +4,8 @@ export async function queryFormer(data: object) {
 	 * @returns {Promise<string>}
 	 * @param data {object} Object to convert
 	 * @async
+	 * @hidden
+	 * @internal
 	 */
 	let query = '';
 	if (Object.keys(data).length == 0) return query;

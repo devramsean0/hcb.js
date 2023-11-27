@@ -3,8 +3,7 @@ import type { I_HCB_Transaction } from './transaction';
 
 export interface I_HCB_Invoice {
 	/**
-	 * @description Invoice interface
-	 * @interface I_HCB_Invoice
+	 * Invoice interface
 	 */
 	id: string;
 	object: string;

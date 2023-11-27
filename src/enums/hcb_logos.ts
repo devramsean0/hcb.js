@@ -1,8 +1,7 @@
 // SVG
 export enum ENUM_HCB_LOGO_SVG {
 	/**
-	 * @description HCB Logo enum for the SVG form
-	 * @enum ENUM_HCB_LOGO_SVG
+	 * HCB Logo enum for the SVG form
 	 */
 	icon_original = 'https://hcb.hackclub.com/brand/hcb-icon-icon-original.svg',
 	icon_dark = 'https://hcb.hackclub.com/brand/hcb-icon-icon-dark.svg',
@@ -15,8 +14,7 @@ export enum ENUM_HCB_LOGO_SVG {
 // PNG
 export enum ENUM_HCB_LOGO_PNG {
 	/**
-	 * @description HCB Logo enum for the PNG form
-	 * @enum ENUM_HCB_LOGO_PNG
+	 * HCB Logo enum for the PNG form
 	 */
 	icon_original = 'https://hcb.hackclub.com/brand/hcb-icon-icon-original.png',
 	icon_dark = 'https://hcb.hackclub.com/brand/hcb-icon-icon-dark.png',

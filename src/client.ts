@@ -9,19 +9,35 @@ import {
 	HCB_Organization,
 	HCB_Transaction
 } from './api_endpoints';
+/**
+ * This class contains properties for all other parts of the transparency API
+ */
 
 export class HCB {
-	/**
-	 * @class HCB
-	 * @description This class contains the client for the HCB API
-	 */
-	public organization = new HCB_Organization();
-	public transaction = new HCB_Transaction();
-	public cardCharge = new HCB_CardCharge();
-	public donation = new HCB_Donation();
-	public invoice = new HCB_Invoice();
-	public check = new HCB_Check();
-	public ACHTransfer = new HCB_ACHTransfer();
-	public transfer = new HCB_Transfer();
-	public card = new HCB_Card();
+    /** Module for handling organization-related operations. */
+    public organization = new HCB_Organization();
+
+    /** Module for handling transaction-related operations. */
+    public transaction = new HCB_Transaction();
+
+    /** Module for handling card charge-related operations. */
+    public cardCharge = new HCB_CardCharge();
+
+    /** Module for handling donation-related operations. */
+    public donation = new HCB_Donation();
+
+    /** Module for handling invoice-related operations. */
+    public invoice = new HCB_Invoice();
+
+    /** Module for handling check-related operations. */
+    public check = new HCB_Check();
+
+    /** Module for handling ACH transfer-related operations. */
+    public ACHTransfer = new HCB_ACHTransfer();
+
+    /** Module for handling regular transfer-related operations. */
+    public transfer = new HCB_Transfer();
+
+    /** Module for handling card-related operations. */
+    public card = new HCB_Card();
 }

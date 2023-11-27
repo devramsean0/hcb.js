@@ -3,8 +3,7 @@ import type { I_HCB_User } from './user';
 
 export interface I_HCB_Card {
 	/**
-	 * @description Card interface
-	 * @interface I_HCB_Card
+	 * Card interface
 	 */
 	id: string;
 	object: string;

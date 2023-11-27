@@ -1,7 +1,6 @@
 export interface I_HCB_Tag {
 	/**
-	 * @description Tag interface
-	 * @interface I_HCB_Tag
+	 * Tag interface
 	 */
 	id: string;
 	object: string;
