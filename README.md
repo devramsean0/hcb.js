@@ -31,4 +31,5 @@ const transactions = hcb.transaction.allOrgTransactions({
 ```
 
 ## Documentation
+
 You can view our documentation here [here](https://sean.cyou/docs/hcb.js]
