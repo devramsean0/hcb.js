@@ -6,7 +6,7 @@ on:
       - '*'
     tags:
       - 'v*'
-    pull_request:
+  pull_request:
       branches:
         - '*'
 jobs:
@@ -77,13 +77,13 @@ jobs:
         if: ${{ env.TYPE == 'branch' }}
         run: |
           mkdir -p out/hcb.js
-          cp docs/api.json out/docs/hcb.js/branch-${NAME}.json
+          cp docs/api.json out/docs/hcb.js/current-branch-${NAME}.json
           mv docs/api.json out/docs/hcb.js/branch-${NAME}-${SHA}.json
       - name: Move Documentation
         if: ${{ env.TYPE == 'pull_request'}}
         run: |
           mkdir -p out/hcb.js
-          cp docs/api.json out/docs/hcb.js/pull-${NAME}.json
+          cp docs/api.json out/docs/hcb.js/current-pull-${NAME}.json
           mv docs/api.json out/docs/hcb.js/pull-${NAME}-${SHA}.json
       - name: Commit & Push
         uses: nick-fields/retry@v2
