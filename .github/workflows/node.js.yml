@@ -38,6 +38,7 @@ jobs:
         with:
             node-version: 18.x
             cache: 'yarn'
+      - run: yarn install
       - run: npx prettier --check .
   test:
     needs:
