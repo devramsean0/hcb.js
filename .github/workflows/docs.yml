@@ -104,5 +104,5 @@ jobs:
               git config pull.rebase true
               git commit -m "docs(hcb.js): build for ${TYPE} ${NAME}: ${SHA}" || true
               git pull
-              git push main
+              git push
             fi
