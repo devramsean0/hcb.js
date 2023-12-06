@@ -3,8 +3,7 @@ import { fetchWrapper } from '../lib/fetch';
 import { queryFormer } from '../lib/queryFormer';
 
 /**
- * @class HCB_ACH_Transfer
- * @description This class contains all the card charge related endpoints
+ * This class contains all the card charge related endpoints
  */
 export class HCB_ACHTransfer {
 	public async allOrgACHTransfers(data: {
@@ -15,7 +14,7 @@ export class HCB_ACHTransfer {
 		per_page?: number;
 	}): Promise<I_HCB_ACHTransfer[]> {
 		/**
-		 * @description Get all ACH transfers for a single organization
+		 * Get all ACH transfers for a single organization
 		 * @returns {Promise<I_HCB_ACHTransfer[]>} ACH transfer objects
 		 * @param data {object} Object containing the ID or slug of the organization to fetch and all other optional parameters
 		 * @async
@@ -27,7 +26,7 @@ export class HCB_ACHTransfer {
 	}
 	public async singleACHTransfer(data: { id: string; expand?: string }): Promise<I_HCB_ACHTransfer> {
 		/**
-		 * @description Get a single ACH transfer by ID
+		 * Get a single ACH transfer by ID
 		 * @returns {Promise<I_HCB_ACHTransfer>} ACH transfer object
 		 * @param data {object} Object containing the ID of the ACH transfer to fetch and an optional expand parameter to expand objects (should be a string seperated by commas)
 		 * @async

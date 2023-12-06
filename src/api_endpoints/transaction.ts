@@ -2,8 +2,7 @@ import type { I_HCB_Transaction } from '../api_schemas';
 import { fetchWrapper } from '../lib/fetch';
 import { queryFormer } from '../lib/queryFormer';
 /**
- * @class HCB_Transaction
- * @description This class contains all the transaction related endpoints
+ * This class contains all the transaction related endpoints
  */
 export class HCB_Transaction {
 	public async allOrgTransactions(data: {
@@ -14,7 +13,7 @@ export class HCB_Transaction {
 		per_page?: number;
 	}): Promise<I_HCB_Transaction[]> {
 		/**
-		 * @description Get all transactions for a single organization in a page of 100
+		 * Get all transactions for a single organization in a page of 100
 		 * @returns {Promise<I_HCB_Transaction[]>} Transaction objects
 		 * @param data {object} Object containing the ID or slug of the organization to fetch and all other optional parameters
 		 * @async

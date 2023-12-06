@@ -3,8 +3,7 @@ import { fetchWrapper } from '../lib/fetch';
 import { queryFormer } from '../lib/queryFormer';
 
 /**
- * @class HCB_Transfer
- * @description This class contains all the transaction related endpoints
+ * This class contains all the transaction related endpoints
  */
 export class HCB_Transfer {
 	public async allOrgTransfers(data: {
@@ -15,7 +14,7 @@ export class HCB_Transfer {
 		per_page?: number;
 	}): Promise<I_HCB_Transfer[]> {
 		/**
-		 * @description Get all transfers for a single organization
+		 * Get all transfers for a single organization
 		 * @returns {Promise<I_HCB_Transfer[]>} Transfer objects
 		 * @param data {object} Object containing the ID or slug of the organization to fetch and all other optional parameters
 		 * @async
@@ -27,7 +26,7 @@ export class HCB_Transfer {
 	}
 	public async singleTransfer(data: { id: string; expand?: string }): Promise<I_HCB_Transfer> {
 		/**
-		 * @description Get a single transfer by ID
+		 * Get a single transfer by ID
 		 * @returns {Promise<I_HCB_Transfer>} Transfer object
 		 * @param data {object} Object containing the ID of the transfer to fetch and an optional expand parameter to expand objects (should be a string seperated by commas)
 		 * @async
