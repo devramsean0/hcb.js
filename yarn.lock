@@ -616,14 +616,14 @@
   integrity sha512-SeZzC2QhhdBQUm3U0c8+c/P6UlRyBcLL2Xp5KX7z46WXZxzR8RJSIWL9wSUeBTgxog5LTPJuPj0WOT9lvrtP7Q==
 
 "@sapphire/fetch@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/fetch/-/fetch-3.0.0.tgz#d6efc684c5c5354d0cf60f1c70b9fcf1a210e326"
-  integrity sha512-8kJih/HAQWgaiHrqYyvEZWFCLNYZ/l9dknSOYHPE/5JQ1ZTDCePUrej1AhN8h/PcYRKRxzBSLsX/vkXNLWps0w==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/fetch/-/fetch-3.0.1.tgz#06fc02745d9f01c9fc22342df9078a77272dbf21"
+  integrity sha512-BNnt4sA2yjQLKy6RBkkR93DCuUYP9wsC5FRdZoHxFPPB25K+C+Tf5pqige+vJHq54Qp8fZQWG2w9JZYOsGWYIg==
 
 "@sapphire/node-utilities@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/node-utilities/-/node-utilities-1.0.0.tgz#69baba7538291e4a2185d78ab882845d49d16c60"
-  integrity sha512-xFC4UyzSKs6juyFtsUV4VNybg0KIpwaThED2TH3TGtNT5b0VFpILTXQtqXpPf+Rfmj+O/mLCm319xy4ohsQqxQ==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/node-utilities/-/node-utilities-1.0.1.tgz#808963bb6d021bdc88954f7f233c97ba376f89d5"
+  integrity sha512-hE9L35s/j7MhcsGIAINGvnvVWUVoWPxCNQnP77npcqwEpTXIhQu8OV3qos4jDlymKcaRsZ7Jo8iNBPv8PwjL9g==
 
 "@sapphire/prettier-config@^2.0.0":
   version "2.0.0"
