@@ -83,7 +83,7 @@ jobs:
           cp docs/api.json out/docs/hcb.js/current-pull-${NAME}.json
           mv docs/api.json out/docs/hcb.js/pull-${NAME}-${SHA}.json
       - name: Commit & Push
-        uses: nick-fields/retry@v2
+        uses: nick-fields/retry@v3
         with:
           max_attempts: 3
           retry_on: error
