@@ -7,7 +7,7 @@ export default defineConfig({
 			provider: 'v8',
 			reporter: ['text', 'lcov', 'clover']
 		},
-    		pool: 'forks',
+		pool: 'forks',
 		testTimeout: 10000
 	},
 	esbuild: {
